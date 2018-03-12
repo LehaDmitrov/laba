@@ -12,14 +12,14 @@ Dog::Dog()
 
 Dog::Dog(string name, string porod, float year)
 {
-	this->name, name;
+	this->name = name;
 	this->porod = porod;
 	this->year = year;
 }
 
 Dog::Dog(Dog &Dog)
 {
-	this->name, Dog.getName();
+	this->name = Dog.getName();
 	this->porod = Dog.getPorod();
 	this->year = Dog.getYear();
 }
